@@ -207,7 +207,6 @@ func CreateCobraCommands(root *cobra.Command, cmds []Command) {
 			Long:    cmds[i].LongHelp,
 			Aliases: []string{cmds[i].Shortcut},
 			Run: func(cmd *cobra.Command, args []string) {
-				i := cmd.DuckCmdIndex
 				commonArgs := []string{"-c", cmds[i].Cmd, cmd.Use}
 				args = append(commonArgs, args...)
 				shell := os.Getenv("SHELL")

@@ -18,7 +18,7 @@ import (
 	"github.com/fatih/color"
 	"github.com/snwfdhmp/duck/cmd"
 	"github.com/snwfdhmp/duck/pkg/data"
-	"github.com/snwfdhmp/duck/pkg/pkg"
+	"github.com/lvndry/duck/pkg/pkg"
 	"github.com/snwfdhmp/duck/pkg/projects"
 	"github.com/spf13/afero"
 )
